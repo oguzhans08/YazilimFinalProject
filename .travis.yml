@@ -1,0 +1,9 @@
+language : java
+script : "mvn -f OrnekMavenProje/pom.xml clean install test"
+jdk:
+   - openjdk8
+   - openjdk9
+   - openjdk10
+   - openjdk11
+after_success:
+   - bash <(curl -s https://codecov.io/bash)

@@ -29,7 +29,7 @@ public class RestWebServis {
     	ogrenciListesi.add(ogrenci);
 		return ogrenci;
     }
-    @PostMapping("/sil")
+    @PostMapping("/ogrencisil")
     public  Ogrenci sil(@RequestBody Ogrenci ogrenci){
         ogrenciListesi.add(ogrenci);
         return ogrenci;

@@ -35,9 +35,7 @@ public class Testbolum {
             assertEquals("Oğuzhan",ogrenci1);
             assertEquals("Hayriye",ogrenci2);
             assertEquals("Hüseyin",ogrenci3);
-            assertEquals("Oğuzhan",ogrenci1);
-            assertEquals("Oğuzhan",ogrenci1);
-            assertEquals("Oğuzhan",ogrenci1);
+            
 
         }
 
